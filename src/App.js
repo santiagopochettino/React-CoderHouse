@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar';
+import './components/NavBar.css'
+//expresion declarada :   function App(){}
 
-function App() {
+//expresion funcional
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Tienda de bebidas
-        </p>
+    <div >
+      <header >
+        <NavBar />
+
+
 
       </header>
     </div>
