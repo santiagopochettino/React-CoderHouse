@@ -1,7 +1,7 @@
 /*navBar*/
 .navbar{
   display: flex;
-  background-color: rgb(173, 248, 130);
+  background-color: rgb(207, 16, 16);
   align-items: center;
   justify-content: space-around;
   min-height: 60px;
@@ -21,4 +21,8 @@
   font-size: 24px;
   font-weight: bold;
   
+}
+.logo{
+  width: 80%;
+  border-radius: 10px;
 }
