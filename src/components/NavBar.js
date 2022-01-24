@@ -1,12 +1,13 @@
 import React from 'react';
-import CartWidget from './CartWidget';
+import Logo from './Logo';
+
 
 
 
 const NavBar = () => {
     return <div>
         <nav className="navbar">
-            <CartWidget />
+            <Logo />
             <ul>
                 <li>Inicio</li>
                 <li>Tienda</li>
@@ -14,6 +15,7 @@ const NavBar = () => {
                 <li>Contacto</li>
             </ul>
         </nav>
+
     </div>;
 };
 
