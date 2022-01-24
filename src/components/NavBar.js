@@ -3,7 +3,6 @@ import Logo from './Logo';
 
 
 
-
 const NavBar = () => {
     return <div>
         <nav className="navbar">
