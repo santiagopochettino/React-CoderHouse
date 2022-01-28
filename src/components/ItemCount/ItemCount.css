@@ -1,0 +1,11 @@
+.counterSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.counterSection button{
+    text-transform: lowercase;
+    font-weight: bold;
+}

@@ -1,6 +1,7 @@
 import NavBar from './components/NavBar/NavBar';
 import './components/NavBar/NavBar.css'
 import ItemListContainer from './containers/ItemListContainer';
+import ItemCount from './components/ItemCount/ItemCount'
 
 
 //expresion declarada :   function App(){}
@@ -13,7 +14,8 @@ const App = () => {
         <NavBar />
       </header>
       <main>
-        <ItemListContainer title="Saludando desde una props" subtitle="Santiago Pochettino probando las props" />
+        <ItemListContainer title="Saludando desde una props" />
+        <ItemCount />
 
       </main>
     </div>
