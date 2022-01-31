@@ -4,8 +4,13 @@
     justify-content: center;
     align-items: center;
     
+    
 }
 .counterSection button{
     text-transform: lowercase;
     font-weight: bold;
+    
+}
+.counterSection p{
+    text-align: center;
 }
