@@ -25,8 +25,8 @@ const ItemCount = ({ stock }) => {
                 <h3>Contador: {counter}</h3>
                 <h3>Stock : {stock}</h3>
 
-                <Button onClick={handlerCounterUp} variant="contained">Increase</Button>
-                <Button onClick={handlerCounterDown} variant="contained">Decrease</Button>
+                <Button onClick={handlerCounterUp} variant="contained">+</Button>
+                <Button onClick={handlerCounterDown} variant="contained">-</Button>
                 <Button onClick={onAdd} variant="contained">Add Cart</Button>
             </Stack>
 
