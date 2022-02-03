@@ -1,0 +1,22 @@
+.textoBienvenida{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    text-align: center;
+    margin-top: 3rem;
+    width:100%;
+    max-width: 30rem;
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.textoBienvenida h1{
+    font-size: 2rem;
+    color:darksalmon;
+    font-weight: bold;
+}
+.subheading{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
