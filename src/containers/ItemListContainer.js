@@ -4,23 +4,13 @@ import ItemList from '../components/ItemList/ItemList'
 
 
 const ItemListContainer = () => {
-    const initial = 1;
-    const stock = 15;
+    const [onAdd, setOnAdd] = useState()
 
-    const [items, setItems] = useState(initial);
-
-
-
-    const onAdd = () => {
-        if (items < stock) {
-            setItems(items + 1)
-        }
-    }
 
     return (
         <div>
 
-            <ItemCount stock={stock} items={items} onAdd={onAdd} />
+            <ItemCount onAdd={onAdd} b={setOnAdd} stock='10' />
             <ItemList />
 
         </div>)

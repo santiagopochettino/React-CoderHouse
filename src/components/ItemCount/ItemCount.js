@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button, Stack } from '@mui/material';
 import './ItemCount.css'
 
-const ItemCount = ({ stock }) => {
+const ItemCount = ({ onAdd, stock }) => {
     const [counter, setCounter] = useState(0);
 
     const handlerCounterUp = () => {
@@ -12,10 +12,9 @@ const ItemCount = ({ stock }) => {
     const handlerCounterDown = () => {
         setCounter(counter === 0 ? counter + 0 : counter - 1);
     }
-    const onAdd = () => {
-        onAdd(counter);
-
-
+    const agregar = () => {
+        onAdd = counter
+        alert(`Se Agregaron sus ${onAdd} productos al carrito`)
     }
     return (
 
